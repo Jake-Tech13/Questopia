@@ -1,0 +1,33 @@
+{
+    "fixed_bonus": {
+        "weapons": {
+            "shared": {
+                "health_bonus": {
+                    "name": "modifiers.fixed_bonus.weapons.shared.health_bonus.name",
+                    "description": "modifiers.fixed_bonus.weapons.shared.health_bonus.description"
+                },
+                "team_health_bonus": {
+                    "name": "modifiers.fixed_bonus.weapons.shared.team_health_bonus.name",
+                    "description": "modifiers.fixed_bonus.weapons.shared.team_health_bonus.description"
+                }
+            },
+            "sword": {
+            }
+        }
+    },
+    "fixed_malus": {
+        "shared": {
+
+        }
+    },
+    "mult_bonus": {
+        "shared": {
+
+        }
+    },
+    "mult_malus": {
+        "shared": {
+
+        }
+    }
+}

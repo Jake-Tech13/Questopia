@@ -1,0 +1,81 @@
+{
+    "sword": {
+        "$locales": {
+            "name_s": "weapons.sword.name_s",
+            "name_p": "weapons.sword.name_p"
+        },
+        
+        "copper_sword": {
+            "$locales": {
+                "name": "weapons.sword.copper_sword.name",
+                "description": "weapons.sword.copper_sword.description"
+            },
+            "properties": {                
+                "rarity": "COMMON",
+                "special": {"spec_gauge_amp": 1, "spec_dmg": 0},
+                "elemental": null,
+                "price": 300
+            },
+            "stats": {
+                "damage": 12,
+                "defense": 5,
+                "speed": 6
+            },
+            "modifiers": {
+                "crit_rate_bonus": 0.05,
+                "crit_multiplier_bonus": 0.15,
+                "health_bonus": 5
+            }
+        },
+        "steel_sword": {
+            "$locales": {
+                "name": "weapons.sword.steel_sword.name",
+                "description": "weapons.sword.steel_sword.description"
+            },
+            "properties": {                
+                "rarity": "common",
+                "special": {"spec_gauge_amp": 3, "spec_dmg": 1},
+                "elemental": null,
+                "price": 1200
+            },
+            "stats": {
+                "damage": 27,
+                "defense": 13,
+                "speed": 3
+            },
+            "modifiers": {
+                "crit_rate_bonus": 0.12,
+                "crit_multiplier_bonus": 0.22,
+                "def_bonus": 6,
+                "loot_bonus": 3,
+                "team_health_bonus": 15
+            },
+            "hiden_mods": [ "loot_bonus" ]
+        },
+        "fire_sword": {
+            "$locales": {
+                "name": "weapons.sword.fire_sword.name",
+                "description": "weapons.sword.fire_sword.description"
+            },
+            "properties": {                
+                "rarity": "epic",
+                "special": {"spec_gauge_amp": 6, "spec_dmg": 6},
+                "elemental": {"element": "fire", "element_dmg": 26, "round_duration": 3, "element_dmg_amp_by_round": 6},
+                "price": 4500
+            },
+            "stats": {
+                "damage": 38,
+                "defense": 16,
+                "speed": 8
+            },
+            "modifiers": {
+                "crit_rate_bonus": 0.2,
+                "crit_multiplier_bonus": 0.35,
+                "fire_dmg_bonus": 7,
+                "loot_bonus": 3,
+                "team_fire_dmg_bonus": 12
+            },
+            "hiden_mods": [ "loot_bonus" ]
+        }
+    }
+}

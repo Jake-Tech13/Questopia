@@ -1,0 +1,20 @@
+{
+    "weapons": {
+        "name_s": "Arme",
+        "name_p": "Armes",
+        
+        "sword": {
+            "name_s": "Épée",
+            "name_p": "Épées",
+            
+            "copper_sword": {
+            "name": "Épée en cuivre",
+            "description": "Une épée basique faite de cuivre pur. Polie et légère, mais pas très durable."
+            },
+            "steel_sword": {
+                "name": "Épée en acier",
+                "description": "Une épée forgée en acier carboné. Sa redoutable lame à double tranchant viendra rapidement à bout de tous vos ennemis."
+            }
+        }        
+    }
+}
